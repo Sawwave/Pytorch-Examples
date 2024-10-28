@@ -1,0 +1,6 @@
+batch norms only in cnns, reduces a few dimensions from holding most of the information, spreads info across all your dimensions
+batch norms are a sometimes food, after activations
+
+e.g., x-> cnn ->activations -> cnn -> + skip connection ->batch norm
+
+residual connections help to prevent exploding or vanishing gradients
